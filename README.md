@@ -16,6 +16,7 @@
 1. 16S ribosomal RNA (rRNA) genes of Archaea
    
    Archaea_16SrRNA.rep.mc.fasta is more than 200MB, so only upload original file to github, need use use MUSCLE5 to align sequences and save output file as `Archaea_16SrRNA.rep.mc.fasta` or use `pmprimer -f Archaea_16SrRNA.rep.fasta -p notlen notsameseq muscle` to align sequences.
+   
    Command in paper is : `pmprimer -f Archaea_16SrRNA.rep.mc.fasta -a threshold:0.85 gaps:1.0 merge primer2 haplo tm:45.0 -e hpcnt:600 save`
 
 > 
