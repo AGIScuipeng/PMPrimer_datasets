@@ -12,13 +12,17 @@
 
 
 ## Command In Paper
+
 1. 16S ribosomal RNA (rRNA) genes of Archaea
+   
    Archaea_16SrRNA.rep.mc.fasta is more than 200MB, so only upload original file to github, need use use MUSCLE5 to align sequences and save output file as `Archaea_16SrRNA.rep.mc.fasta` or use `pmprimer -f Archaea_16SrRNA.rep.fasta -p notlen notsameseq muscle` to align sequences.
    Command in paper is : `pmprimer -f Archaea_16SrRNA.rep.mc.fasta -a threshold:0.85 gaps:1.0 merge primer2 haplo tm:45.0 -e hpcnt:600 save`
 
 > 
 2. hsp65 (groEL2) genes of Mycobacteriaceae
+   
    Command in paper is : `pmprimer -f Mycobacteriaceae_groEL2.filt.mc.fasta -a primer2 -e hpcnt:70 save`
 > 
 3. tuf genes of Staphylococci
+   
    Command in paper is : `pmprimer -f Staphylococcus_tuf.filt.mc.fasta -a threshold:0.995 minlen:5 merge primer2 -e save`
