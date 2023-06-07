@@ -17,12 +17,12 @@
    
    Archaea_16SrRNA.rep.mc.fasta needs to be extracted from Archaea_16SrRNA.rep.mc.fasta.zip to obtain
    
-   Command in paper is : `pmprimer -f Archaea_16SrRNA.rep.mc.fasta -a threshold:0.85 gaps:1.0 merge primer2 haplo tm:45.0 -e hpcnt:600 save`
+   Command in paper is : `pmprimer -f Archaea_16SrRNA.rep.mc.fasta -a threshold:0.85 gaps:1.0 merge primer2 tm:45.0 -e hpcnt:600 save`
 
 > 
 1. hsp65 (groEL2) genes of Mycobacteriaceae
    
-   Command in paper is : `pmprimer -f Mycobacteriaceae_groEL2.filt.mc.fasta -a primer2 -e hpcnt:70 save`
+   Command in paper is : `pmprimer -f Mycobacteriaceae_groEL2.filt.mc.fasta -a primer2 -e hpcnt:30 save`
 > 
 1. tuf genes of Staphylococci
    
